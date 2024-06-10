@@ -4,10 +4,12 @@ html{
 body{
     background-color: inherit;
 }
-.navbar-brand{
-    font-weight: bolder;
-    margin: 0 10%;
-    color: #f8D673;
+.img-fluid {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
 }
 .container-fluid #navbarNav .navbar-nav .nav-item .nav-link{
     color: #ffe79f
@@ -15,8 +17,15 @@ body{
 .seperator{
     border: #f8D673 1px solid;
 }
-
-
+.navbar-brand{
+    font-weight: bolder;
+    color: #f8D673;
+}
+.navbar-brand-container{
+    border-right: #f8D673 1px solid;
+    padding: 0 1%;
+    margin: 0 1%;
+}
 .intro{
     height: 700px;
 }
