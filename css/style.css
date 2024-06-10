@@ -1,0 +1,22 @@
+html{
+    background-color: #2B3035;
+}
+body{
+    background-color: inherit;
+}
+.navbar-brand{
+    font-weight: bolder;
+    margin: 0 10%;
+    color: #f8D673;
+}
+.container-fluid #navbarNav .navbar-nav .nav-item .nav-link{
+    color: #ffe79f
+}
+.seperator{
+    border: #f8D673 1px solid;
+}
+
+
+.intro{
+    height: 700px;
+}
