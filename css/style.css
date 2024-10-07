@@ -1,11 +1,83 @@
-html, body{
+html, head, body{
     width: 100%;
     height: 100%;
 }
-.navbar-brand{
-    font-weight: bolder;
-
-}
-.nav-link, .navbar-brand {
+/* Custom styles for the header */
+.header {
+    background-color: #1c1c1c; /* Dark background */
+    padding: 15px 30px; /* Extra padding for spacing */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Keeps the header on top */
+  }
+  
+  /* Navbar brand (Logo) */
+  .navbar-brand {
+    font-size: 24px;
     color: white!important;
+    font-weight: 700; /* Bold font for ARRS */
+  }
+  
+  /* Navbar links */
+  .nav-link {
+    color: #fff!important;
+    margin-left: 20px; /* Adds space between the links */
+    font-size: 18px; /* Increases link font size */
+    font-weight: 500; /* Semi-bold for better readability */
+  }
+  
+  /* Hover effect */
+  .nav-link:hover {
+    text-decoration: underline;
+    text-transform: 5;
+    font-weight: bolder;
+  }
+  
+  /* Active link styling */
+  .nav-link.active {    
+    font-weight: bolder;
+  }
+.main .profile-image-container img{
+    object-fit: contain;
+}
+#center-skill {
+    
+    width: 20%;
+    height: 23%;
+}
+.skill-icon {
+    width: 5%;
+    height: 7%;
+}
+.white-icon {
+    filter: invert(1);
+}
+.profile-image-container {
+    position: relative;
+    display: inline-block;
+}
+
+#person-image {
+    display: block;
+    position: relative;
+    z-index: 2; /* Keep the image on top */
+}
+
+.profile-image-container::after {
+  content: "";
+  position: absolute;
+  top:85%; /* Start the shadow below the image */
+  left: 50%;
+  transform: translateX(-50%) rotateX(30deg) skewX(-30deg); /* Tilt the shadow */
+  width: 80%; /* Adjust width to match the shadow shape */
+  height: 150px; /* Height of the shadow */
+  background-color: rgba(255, 255, 255, 0.1); /* Dark shadow color with opacity */
+  filter: blur(10px); /* Blur to make it more realistic */
+  z-index: 1; /* Place the shadow behind the image */
+}
+
+.card-group > .card{
+    color: white;
+    background-color: rgb(33 37 41);
+   
 }

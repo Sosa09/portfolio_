@@ -1,0 +1,27 @@
+[   {
+        "icon": "../image/icons/python.png",
+        "tooltip": "Python Programming",
+        "alt": "Python Icon"    
+    },
+    {
+        "icon": "../image/icons/c-sharp.png",
+        "tooltip": "C Sharp Programming",
+        "alt": "Csharp Icon"
+    },
+    {
+        "icon": "../image/icons/github.png",
+        "tooltip": "Github cli",
+        "alt": "Github Icon",
+        "class": "white-icon"
+    },
+    {
+        "icon": "../image/icons/windows.png",
+        "tooltip": "windows xp,7,10,11 client",
+        "alt": "windows client Icon"
+    },
+    {
+        "icon": "../image/icons/terminal.png",
+        "tooltip": "Cmd/Powershell/Bash scripting/commands",
+        "alt": "Terminal Icon"
+    }
+]
